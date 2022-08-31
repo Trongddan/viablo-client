@@ -1,0 +1,376 @@
+*{
+    box-sizing: border-box;
+    line-height: 1.2;
+    font-family:  sans-serif;
+}
+.search-in{
+    margin-left: 1px;
+}
+.title_page{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration-color: #bb8245;
+    text-transform: capitalize;
+    text-shadow: 0.2px 0.2px 0.2px rgb(252, 252, 252);
+    font-family: "Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol";
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.backHeader{
+    background: linear-gradient(to bottom right, rgb(79, 182, 241), rgb(147, 175, 252));
+}
+.btnFollow{
+    background: linear-gradient(to bottom right, rgb(79, 182, 241), rgb(147, 175, 252));
+}
+.footer{
+    font-size: 12px;
+}
+ul{
+    list-style: none;
+    box-sizing: border-box;
+    padding-left: 0;
+}
+a{
+    color: black;
+    
+}
+li{
+    margin: 0 16px;
+
+}
+a:hover{
+    text-decoration: none;
+}
+.banner{
+    width: 100%;
+}
+.avatar_user_post_list{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+.post{
+    margin: 2px 0;
+    min-height: 165px;
+    max-height: 205px;
+    border-bottom: solid rgb(211, 208, 208) 1px;
+    box-shadow: 1px 1px 40px  rgb(211, 208, 208);
+    width: 100%;
+}
+.post:hover{
+    opacity: .8;
+    background: #f0f1f3;
+}
+.margin_icon_seen_cmt{
+    display: flex;
+}
+.name_post_list{
+    font-size: 17px;
+    word-break: keep-all;
+}
+.name_post{
+    width: 100%;
+    text-overflow: ellipsis;
+}
+.name_user_list_post{
+    color: rgb(77, 77, 148);
+}
+.user_time_list_post{
+    height: 30px;
+}
+.title_list_question{
+    font-size: 20px;
+    color: rgb(77, 77, 148);
+}
+.ken{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #f5f6f8;
+    font-size: 17px;
+    border-radius: 5px;
+    background: #89aad8;
+}
+.asssss{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li{
+    
+    text-align: center;
+    margin-top: 23px;
+    
+    
+}
+.question{
+    margin: 2px 0;
+    min-height: 125px;
+    max-height: 145px;
+    border-bottom: solid rgb(211, 208, 208) 1px;
+    /* box-shadow: 0px 1px 40px  rgb(211, 208, 208); */
+    width: 100%;
+}
+.listquestion{
+    margin-top: 8px;
+    overflow-y:scroll;
+    height: 100vh;
+}
+.img-preview{
+    height: 200px;
+    width: 170px;
+    position: absolute;
+    top: 66px;
+    right: 45px;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+::-webkit-scrollbar-thumb {
+    background: #bb8245;
+}
+.register{
+    position: relative;
+    border-radius: 10px;
+    margin: 3% 10% 7% 10% ;
+    text-align: center;
+    min-width: 100px;
+    max-width: 80%;
+    height: 400px;
+    background: linear-gradient(to bottom right, rgb(79, 182, 241), rgb(147, 175, 252));
+    text-align: center;
+}
+.search-button{
+   width: auto;
+   height: 35px;
+   background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 255, 255));
+   outline: none;
+   border: solid 2px rgb(179, 179, 99);
+   border-radius: 5px;
+   
+
+
+}
+.avatar_img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+
+}
+.userdetail_title{
+    font-weight: 600;
+    height: 45px;
+    width: 200px;
+    line-height: 45px;
+    align-items: center;
+    margin-right: 20px;
+}
+.userdetail_title:hover{
+    opacity: 1.8;
+    transition: .2s;
+    color: #8ba4c7;
+}
+.userDetail_content{
+    min-height: 200px;
+}
+.aloalo{
+    height: 50px;
+    background:#f5f6f8;
+    margin-top: 3px;
+    line-height: 50px;    
+}
+.toggle-btn{
+    background:linear-gradient(to bottom right, rgb(162, 208, 235), rgb(89, 109, 165));
+    color: #f0efee;
+}
+.buttonToTop{
+    background:linear-gradient(to bottom right, rgb(79, 182, 241), rgb(147, 175, 252));
+    color: #f0efee;
+    position:"fixed";
+    bottom:"70px";
+    right:"40px";
+    font-size:"55px";
+    height:"70px";
+    width:"10px";
+    border-radius: 5px;
+}
+.buttonToTop:hover{
+    opacity: .8;
+}
+
+.aloalo:hover{
+    background: #e7ecf3;
+}
+.managepost{
+    margin-top: 5%;
+    min-height: 450px;
+}
+.title_post_detail{
+    text-justify: auto;
+    min-width: 150px;
+    background:linear-gradient(to bottom right, rgb(79, 182, 241), rgb(147, 175, 252));;
+    height: 40px;
+  
+    
+}
+.title_post_detail p {
+    padding: 10px;
+    font-size: 17px;
+}
+.post_content_detail img{
+    width: 100%;
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+.active li{
+    background-color:  #f5f1ee;
+
+}
+.active{
+    border-bottom: solid 3px #ff9f38;
+}
+.cmtbox {
+  top: 0;  
+ right: 10px;
+  position: absolute;
+  display: none;
+
+}
+
+.moreCommentButton:hover >.cmtbox{ 
+    display: block;
+}
+
+.nav_detail-search{
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    align-items: center;
+    border: solid rgb(218, 217, 214) 1px;
+    box-shadow: 5px 5px 16px rgb(202, 202, 199);
+    padding: 0 12%;
+    box-sizing: border-box;
+}
+.user_Post_bg{
+    position: relative;
+}
+.btnxoa{
+    font-size: 23px;
+    height: 35px;
+    position: absolute;
+    top: 20px;
+    right: 140px;
+}
+.btnFollow{
+   height: 35px;
+   align-items: center;
+   text-align: center;
+}
+.xin{
+    display: flex;
+    justify-content: end;
+}
+.avatar_follow{
+    width: 50px;
+    height: 50px;
+}
+.usernameFollow{
+    height: 30px;
+    line-height: 30px;
+    align-items: center;
+    
+}
+
+.nav_detail{
+    height: 45px;
+    max-width: 100%;
+    line-height: 45px;
+    align-items: center;
+    margin:auto;
+    border: solid rgb(218, 217, 214) 1px;
+    box-shadow: 5px 5px 16px rgb(202, 202, 199);
+    padding: 0 12%;
+    box-sizing: border-box;
+}
+.select_option{
+    display: none;
+}
+.btnSearch{
+    margin-left: 7px;
+}
+
+@media  only screen and (max-width:904px) {
+
+    .nav_detail{
+        width: 100%;
+    }
+    .userdetail_title{
+        display: none;
+    }
+    .select_option{
+        width: 120%;
+        display: block;
+        border: none;
+    }
+    .post{
+        width: 110%;
+    }
+
+    .cmtbox{
+        top: 0;  
+       right: 180px;
+        position: absolute;
+        display: none;
+    }
+    .btnxoa {
+        font-size: 23px;
+        height: 35px;
+        position: absolute;
+        top: 13px;
+        right: 1px;
+    }
+
+    .user_avater_follower_list{
+        margin-right: 35px
+    }
+    .buttonToTop{
+        position: fixed;
+        bottom: 52px;
+        right: 50px;
+        font-size: 45px;
+        height: 19px;
+        width: 25px;
+    }
+    .btnSearch{
+        margin: 0px;
+    }
+}
+@media  only screen and (max-width:400px) {
+    .name_user_list_post{
+        display: none;
+    }
+    .date_post{
+        display: none;
+    }
+    .btnxoa {
+        font-size: 23px;
+        height: 35px;
+        position: absolute;
+        top: 13px;
+        right: 41px;
+    }
+    .user_time_list_post{display: none;}
+    .user_avater_follower_list{
+        margin-right: 35px
+    }
+    .buttonToTop{
+        display: none;
+    }
+    .btnSearch{
+        margin: 0px;
+    }
+}
